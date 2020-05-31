@@ -8,6 +8,7 @@ class App < Sinatra::Base
   end
   
   get '/square/:number'
+    
     erb :square
   end
   
