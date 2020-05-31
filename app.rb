@@ -12,6 +12,9 @@ class App < Sinatra::Base
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5'
-end
+  end
+  
+  get '/:operation/:number1/:number2'
+  end
 
 end
