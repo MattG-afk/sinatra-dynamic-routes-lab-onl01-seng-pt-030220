@@ -23,6 +23,7 @@ class App < Sinatra::Base
   @word3
   @word4
   @word5
+  erb :say
   end
   
   get '/:operation/:number1/:number2'
