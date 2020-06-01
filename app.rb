@@ -14,9 +14,15 @@ class App < Sinatra::Base
   
   get '/say/:number/:phrase'
     @number = params[:number].to_i
+    @phrase = params[:phrase]
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5'
+  @word1
+  @word2
+  @word3
+  @word4
+  @word5
   end
   
   get '/:operation/:number1/:number2'
